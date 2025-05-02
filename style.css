@@ -29,7 +29,7 @@ body {
     color: var(--text-color);
     background-color: var(--white);
     overflow-x: hidden;
-    width: 100vh;
+
 }
 
 a {
@@ -756,3 +756,8 @@ footer p {
     border-bottom: none;
   }
 
+@media (max-width:420px) {
+    body{
+        width: 100vh;
+    }
+}
