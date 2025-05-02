@@ -29,6 +29,7 @@ body {
     color: var(--text-color);
     background-color: var(--white);
     overflow-x: hidden;
+    width: 100vh;
 }
 
 a {
@@ -643,7 +644,7 @@ footer p {
         transform: translateY(-8px) rotate(-45deg);
     }
     
-    .section-title {
+    .section-title .section-titles {
         font-size: 2rem;
     }
     
@@ -754,3 +755,4 @@ footer p {
   .experience-item:last-child {
     border-bottom: none;
   }
+
